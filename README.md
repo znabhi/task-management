@@ -67,7 +67,7 @@ CREATE DATABASE task_management_db;
 
 ### 5. Environment Variables
 
-# Backend (.env)
+### Backend (.env)
 ```bash
 PORT=5000
 NODE_ENV=development
@@ -79,22 +79,22 @@ JWT_REFRESH_EXPIRY="7d"
 FRONTEND_URL="http://localhost:3000"
 ```
 
-# Frontend (.env.local)
+### Frontend (.env.local)
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:5000
 ``` 
 
 ### 6. Running the Application
-# Backend
+### Backend
 cd backend
 npm run dev
 
-# Server runs at http://localhost:5000
+### Server runs at http://localhost:5000
 
 ### Frontend
 cd frontend
 npm run dev
-# App runs at http://localhost:3000
+### App runs at http://localhost:3000
 
 ```bash
 task-management/
